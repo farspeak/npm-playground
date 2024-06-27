@@ -39,7 +39,7 @@ const smurfs = [
   console.log(docs);
   const inquiry = await farspeak
     .entity("smurfs")
-    .inquire("Which smurf is a strongest?");
+    .inquire("Which smurf is the strongest one?");
   console.log(inquiry);
   await farspeak.entity("smurfs").deleteAll();
   console.log("All smurfs deleted.");
